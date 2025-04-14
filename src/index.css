@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.featured-project {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.project-image {
+  width: 200px;
+  height: auto;
+  border-left: 6px solid royalblue;
+  border-radius: 8px;
+}
+
+.project-content h3 {
+  margin: 0 0 0.5rem;
+}
+
+.project-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.tech-badge {
+  background-color: black;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.project-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 1rem;
+  background: #eee;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #111;
+  transition: background 0.2s ease;
+}
+
+.project-links a:hover {
+  background: #ddd;
+}
+
