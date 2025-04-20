@@ -117,7 +117,13 @@ a:hover {
   border-radius: 50%;
   object-fit: cover;
  /*  border: 3px solid /* var(--accent-blue); */
+ transition: transform 0.4s ease, box-shadow 0.3s ease;
  }
+
+ .hero-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
 
 .hero-text {
   font-size: 1rem;
@@ -211,6 +217,18 @@ a:hover {
   color: var(--text-dark);
 }
 
+.tech-category,
+.skills-column, 
+.hero-text {
+  transition: transform 0.3s ease;
+}
+
+.tech-category:hover,
+.skills-column:hover,
+.hero-text:hover {
+  transform: scale(1.03);
+}
+
 
 
 
@@ -228,6 +246,13 @@ a:hover {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
   width: 100%;
   flex-wrap: wrap;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
 .project-image-wrapper {
@@ -312,6 +337,12 @@ a:hover {
 
 .project-links a:last-child:hover {
   background-color: #f0f4ff;
+  box-shadow: 0 4px 12px rgba(58, 134, 255, 0.3);
+}
+
+.project-links a:first-child:hover {
+  background-color: #2364AA;
+  box-shadow: 0 4px 12px rgba(58, 134, 255, 0.4);
 }
 
 /* Skills */
@@ -404,6 +435,7 @@ a:hover {
 
 .contact-button:hover {
   background-color: #e60063;
+  box-shadow: 0 4px 12px rgba(255, 0, 110, 0.4);
 }
 
 

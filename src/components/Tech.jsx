@@ -13,7 +13,7 @@ export const Tech = () => {
           </div>
           <div className="tech-category">
             <h3>Tools</h3>
-            <p>GitHub, Figma, Azure Devops</p>
+            <p>Git & GitHub, Figma, Azure Devops, VS Code</p>
           </div>
         </div>
       </section>

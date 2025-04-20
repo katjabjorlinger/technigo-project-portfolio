@@ -10,7 +10,7 @@ export const Hero = () => {
   </div>
 
   <div className="hero-grid">
-    <img src="./src/assets/katja.png" alt="Katja Björlinger" className="hero-image" />
+    <img src="./src/assets/1.png" alt="Katja Björlinger" className="hero-image" />
     <p className="hero-text">
     I’m a curious and creative problem-solver with a passion for building thoughtful digital experiences. I enjoy turning complex ideas into something clear, usable, and human. My background combines communication and tech – and I love working in the space where those meet.
 

@@ -2,7 +2,7 @@ import { FaGlobe, FaGithub } from "react-icons/fa";
 
 export const ProjectCard = ({ project }) => {
   return (
-    <div className="project-card">
+    <div className="project-card" data-aos="zoom-in">
       <div className="project-image-wrapper">
         <img src={project.image} alt={project.name} className="project-image" />
       </div>
