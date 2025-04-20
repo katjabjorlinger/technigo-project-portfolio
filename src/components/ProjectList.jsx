@@ -1,14 +1,14 @@
-export const ProjectList = ({ project }) => {
-    return (
-      <div className="project-card">
-        <img src={project.image} alt={project.name} />
-        <h3>{project.name}</h3>
-        <p>{project.description}</p>
-        <div className="project-links">
-          <a href={project.live} target="_blank" rel="noopener noreferrer">Live</a>
-          <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
+import { ProjectCard } from "./ProjectCard";
+
+export const ProjectList = ({ projects }) => {
+  return (
+    <section className="project-section">
+      <div className="container">
+        <h2 className="project-heading">Featured Projects</h2>
+        {projects.map((project) => (
+          <ProjectCard key={project.name} project={project} />
+        ))}
       </div>
-    );
-  };
-  
+    </section>
+  );
+};

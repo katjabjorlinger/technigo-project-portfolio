@@ -1,16 +1,23 @@
 export const Tech = () => {
     return (
-        <div>
-            <h2>Tech</h2>
-                <p> Frontend HTML, CSS, Flexbox, JavaScript (ES6), JSX, React, Vue, Bootstrap
-                
-                Backend
-                Node.js, Python, Flask, REST API, SQL
-                
-                Tools & Design
-                Figma, GitHub
-                </p>
-            </div>
+        <section className="tech-section container">
+        <h2 className="tech-heading">Tech</h2>
+        <div className="tech-grid">
+          <div className="tech-category">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, Sass, Bootstrap, JavaScript, Vue, ES6, JSX, React, Web Accessibility</p>
+          </div>
+          <div className="tech-category">
+            <h3>Backend</h3>
+            <p>Python, Flask, REST APIs, SQL</p>
+          </div>
+          <div className="tech-category">
+            <h3>Tools</h3>
+            <p>GitHub, Figma, Azure Devops</p>
+          </div>
+        </div>
+      </section>
+      
     );
-}          
+  };
   

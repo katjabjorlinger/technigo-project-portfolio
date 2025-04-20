@@ -1,58 +1,55 @@
 {
   "projects": [
     {
-      "name": "News site",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3"
-      ],
-      "netlify": "link",
-      "github": "link"
-    },
-    {
-      "name": "Business site",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3"
-      ],
-      "netlify": "link",
-      "github": "link"
-    },
-    {
-      "name": "Pizzabot",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "netlify": "link",
-      "github": "link"
-    },
-    {
-      "name": "Library",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "netlify": "link",
-      "github": "link"
-    },
-    {
       "name": "Weather app",
-      "image": "",
+      "image": "./src/assets/clouds-7744217_1280.jpg",
+      "description": "Weather application built with JavaScript, HTML, and CSS. Fetching data from OpenWeatherMap API.",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://weather.katjabjorlinger.com/",
+      "github": "https://github.com/katjabjorlinger/technigo-project-weather-app"
+    },
+
+    {
+      "name": "Auction Site",
+      "image": "./src/assets/laptop.jpg",
+      "description": "This project is a web-based auction system built using Flask. The application allows users to browse auction items, place bids, and interact with auctioned goods. The system supports user authentication, item categorization, bid management, and question-answer functionalities for items. Additionally, the system implements email notifications for outbid alerts and bid confirmations.",
+      "tags": [
+        "HTML5",
+        "Bootstrap",
+        "Python", 
+        "SQL"
+      ],
+      "netlify": "https://katbjdu.pythonanywhere.com/auction/",
+      "github": "https://github.com/katjabjorlinger/auction-site"
+    },
+
+    {
+      "name": "Travel Blog",
+      "image": "./src/assets/passport.jpg",
+      "description": "A responsive blog website showcasing travel-related content. This project focuses on creating a visually appealing and functional layout that adapts to different screen sizes.",
+      "tags": [
+        "HTML5",
+        "CSS3"
+      ],
+      "netlify": "https://katjabjorlinger.com/",
+      "github": "https://github.com/katjabjorlinger/technigo-project-news-site"
+    },
+    {
+      "name": "Recipe Site",
+      "image": "./src/assets/food-8845313_1280.jpg",
+      "description": "A simple recipe web page that displays a list of recipes as interactive cards. Users can filter by cuisine type, sort by cooking time, or get a random recipe suggestion.",
+      "tags": [
+        "HTML5",
+        "CSS3", 
+        "Javascript"
+      ],
+      "netlify": "https://recept.katjabjorlinger.com/",
+      "github": "https://github.com/katjabjorlinger/technigo-project-library?tab=readme-ov-file"
     }
   ]
 }
