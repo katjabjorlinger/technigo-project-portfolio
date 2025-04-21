@@ -7,7 +7,7 @@ export const Contact = () => {
         <div className="contact-text">
           <h2>Let’s connect!</h2>
           <p>Katja Björlinger</p>
-          <p>System Developer</p>
+          <p>Software Developer</p>
 
           <div className="contact-icons">
   {/*           <a href="mailto:katja.bjorlinger@gmail.com" aria-label="Send email">

@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Weather app",
-      "image": "./src/assets/clouds-7744217_1280.jpg",
+      "image": "/assets/clouds-7744217_1280.jpg",
       "description": "Weather application built with JavaScript, HTML, and CSS. Fetching data from OpenWeatherMap API.",
       "tags": [
         "HTML5",
@@ -16,7 +16,7 @@
 
     {
       "name": "Auction Site",
-      "image": "./src/assets/laptop.jpg",
+      "image": "/assets/laptop.jpg",
       "description": "This project is a web-based auction system built using Flask. The application allows users to browse auction items, place bids, and interact with auctioned goods. The system supports user authentication, item categorization, bid management, and question-answer functionalities for items. Additionally, the system implements email notifications for outbid alerts and bid confirmations.",
       "tags": [
         "HTML5",
@@ -30,7 +30,7 @@
 
     {
       "name": "Travel Blog",
-      "image": "./src/assets/passport.jpg",
+      "image": "/assets/passport.jpg",
       "description": "A responsive blog website showcasing travel-related content. This project focuses on creating a visually appealing and functional layout that adapts to different screen sizes.",
       "tags": [
         "HTML5",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Recipe Site",
-      "image": "./src/assets/food-8845313_1280.jpg",
+      "image": "/assets/food-8845313_1280.jpg",
       "description": "A simple recipe web page that displays a list of recipes as interactive cards. Users can filter by cuisine type, sort by cooking time, or get a random recipe suggestion.",
       "tags": [
         "HTML5",
